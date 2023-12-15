@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+}
