@@ -1,5 +1,9 @@
 body {
     background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
 }
 
 header {
@@ -8,9 +12,120 @@ header {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
 }
+
+nav {
+    padding-right: 10px;
+}
+
 
 #logo {
     height: 50px;
     margin-left: 10px;
+}
+
+a {
+    color: seashell;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+li {
+    margin-right: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url("./images/tea6.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+h2, h4 {
+    color: seashell;
+    opacity: 0.9;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+#mission-banner {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+}
+
+.featured-img {
+    height: 200px;
+    width: 300px;
+}
+
+#featured {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#tea-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#location {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url("./images/tea5.jpeg");
+    height: 500px;
+    background-size: cover;
+}
+
+#location-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.location-box {
+    width: 300px;
+    background-color: black;
+    text-align: center;
+}
+
+#contact {
+    height: 200px;
+    text-align: center;
+}
+
+footer {
+    padding-left: 20px;
+}
+
+.grid-item {
+    text-align: center;
 }
