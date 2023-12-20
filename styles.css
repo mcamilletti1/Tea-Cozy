@@ -93,7 +93,7 @@ h2, h4 {
     width: 1000px;
     align-items: center;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #location {
